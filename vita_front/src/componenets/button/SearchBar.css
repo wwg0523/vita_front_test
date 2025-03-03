@@ -1,0 +1,29 @@
+body{
+    font-family: 'Pretendard';
+}
+
+h1 {
+    font-weight: 900;
+    background: linear-gradient(to bottom, #6EC9F7,#3728FF);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* 홈 */
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+img.MainLogo {
+    height: 250px;
+}
+
+.custom-input{
+    width: 800px;
+
+}

@@ -12,6 +12,10 @@ import { RouterProvider } from 'react-router-dom'
 import Loader from './componenets/common/Loader' // (공통) 컴포넌트 : 대기, 로더 
 import routes from './utils/routes' // ROUTER 설정
 
+import SearchBar from './componenets/button/SearchBar'
+
+
+
 
 function App() {
   
@@ -21,7 +25,15 @@ function App() {
     <>
       <Suspense fallback={<Loader />}> 
         <RouterProvider router={routes} />
+        
       </Suspense>
+
+     <SearchBar/>
+
+
+
+
+
     </>
   )
 }

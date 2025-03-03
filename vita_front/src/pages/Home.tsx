@@ -5,6 +5,8 @@
 
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import SearchBar from "../componenets/button/SearchBar";
+import "../componenets/button/SearchBar.css";
 
 
 export default function Home () {
@@ -19,7 +21,17 @@ export default function Home () {
     console.log(location.pathname);
   }, [] );
 
-  return ( <>
-    <h1>HOME</h1>
-  </> );
+  return (
+    <>
+    {/* HOME */}
+    <div className="flex-container">
+      <img src="/assets/images/VitaLogo.png" className="MainLogo" alt="메인로고" />
+      <h1> Healthcare AI Chat-Bot </h1>
+      <SearchBar/>
+    </div>
+      
+
+    </>
+    
+  )
 };

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-shrink: 0;
+
+}
+
+/* searchBar CSS */
+#container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+
+}
+
+#inputText {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#inputSearch {
+    width: 100%;
+
+}
+
+.InputSearch::placeholder {
+    color: #9DA5AE;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.btnTool {
+    position: absolute;
+    left: 70px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.btnVoice {
+    position: absolute;
+    left: 12px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.btnEnter {
+    position: absolute;
+    right: 24px;
+    border: none;
+    outline: none;
+    background: none;
+}

@@ -5,8 +5,7 @@
 
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import SearchBar from "../componenets/button/SearchBar";
-import "../componenets/button/SearchBar.css";
+import SearchBar from "../MyStudy/SearchBar";
 
 
 export default function Home () {

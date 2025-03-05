@@ -8,14 +8,14 @@ import Footer from "../common/Footer";
  */
 export default function PageLayout () {
   return (<>
-    <div className="lyt-grid root">
+    <div className="lyt-grid root ">
       
-      <div className="lyt-grid-item" role="section" >
+      <div className="lyt-grid-item d-flex flex-column align-items-center" role="section" >
         { /* Header 영역 */ }
         <Header />
         { /* Main 영역 */ }
-        <div className="app-content-wrap flex-grow-1 flex-shrink-1">
-          <main className="app-content" id="content" role="main"><Outlet /></main>
+        <div className="app-content-wrap flex-grow-1 flex-shrink-1 align-items-center">
+          <main className="app-content " id="content" role="main"><Outlet /></main>
         </div>
         { /* Footer 영역 */ }
         <Footer />

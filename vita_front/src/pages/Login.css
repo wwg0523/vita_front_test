@@ -1,0 +1,65 @@
+#loginBox{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px 160px 160px 50px ;
+margin: 10px;
+height: fit-content;
+width: 100%;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#loginTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#loginLogo {
+  width: 300px;
+}
+#titleText {
+  display: flex;
+  flex-direction: column;
+}
+#titleText > div{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+
+#LoginTitleText {
+  font-size: 64px;
+  color: #26292B;
+
+}
+
+#snsLogin{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+#mid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 12px;
+  width: 500px;
+  height: 500px;
+}
+
+h6 {
+  font-size: 16px;
+  color: #9DA5AE;
+}
+#miniText {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}

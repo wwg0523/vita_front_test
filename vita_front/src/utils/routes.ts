@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 import PageLayout from "../componenets/layout/PageLayout.tsx";
 import Home from '../pages/Home.tsx';
+import Login from "../pages/Login.tsx";
 
 /**
  * createBrowserRouter() : JSON 형식으로 라우팅 설정
@@ -17,6 +18,10 @@ const routes = createBrowserRouter([
       {
         index: true,
         element: React.createElement(Home),
+      },
+      {
+        path: "/login",
+        element: React.createElement(Login),
       },
     ]
   },

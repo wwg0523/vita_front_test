@@ -1,0 +1,22 @@
+.input-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.title{
+  font-size: 24px;
+  font-weight: 800;
+}
+.text-input{
+  height: 42px;
+  text-align: left;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.text-input::placeholder{
+  font-weight: 400;
+  text-align: left;
+  text-indent: 0px;
+}

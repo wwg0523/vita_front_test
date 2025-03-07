@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+
+}
+
+
+/* << Home >> */
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -100px;
+  height: 600px;
+  width: 100%;
+  
+}
+/* 메인로고 */
+.title-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  
+}
+img.main-logo {
+  height: 220px;
+  /* 계산식 xvh = 250h /1080 x100 */
+}
+.main-title {
+  background: linear-gradient(to bottom, #6EC9F7,#3728FF);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+}

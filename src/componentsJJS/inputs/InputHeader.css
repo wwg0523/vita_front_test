@@ -1,0 +1,35 @@
+.login-title-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+.login-title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.login-title-box > img {
+  width: 250px;
+}
+.title-text {
+  background: linear-gradient(to bottom, #6EC9F7,#3728FF);
+  color: transparent;
+  -webkit-background-clip: text;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+.login-box-title{
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+
+}

@@ -3,6 +3,7 @@ import Header from "../common/Header";
 import DrawableMenu from "../common/DrawableMenu";
 import Footer from "../common/Footer";
 import "../../App.css"
+import StepProgress from "../../componentsJJS/inputs/StepProgress";
 
 /**
  * 레이아웃 : 기본 페이지
@@ -43,6 +44,7 @@ export default function PageLayout () {
       <Header />
       <Outlet />
       <Footer />
+      {/* <StepProgress /> */}
     </div>
 
   </>

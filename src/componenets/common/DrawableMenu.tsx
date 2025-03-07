@@ -17,6 +17,7 @@ import { FaChevronRight } from "react-icons/fa";
 import "./DrawableMenu.css";
 import smallLogo from "/src/assets/icons/VitaLogo.png";
 import largeLogo from "/src/assets/icons/VitaLogo2.png";
+import { NavLink } from "react-router-dom";
 
 const menuItems = [
   { id: 1, icon: <img src="/src/assets/icons/MenuBox1.png" />, label: "Dashboard", subItems: ["대시보드", "활동"] },
@@ -101,6 +102,10 @@ export default function DrawableMenu() {
         <img src = "/src/assets/icons/Frame 276.png" alt=""/>
         <img src = "/src/assets/icons/알림_종.png" alt=""/>
       </div>
+      {/* 임시링크 */}
+        <h1><NavLink to="/">HOME</NavLink></h1>
+        <h1><NavLink to="/login">Login</NavLink></h1>
+
       <div className="user pb-4">
         <img src="/src/assets/icons/Frame 187.png" alt="" />
         <span className={`user-name ${isExpanded ? "visible" : ""}`}>

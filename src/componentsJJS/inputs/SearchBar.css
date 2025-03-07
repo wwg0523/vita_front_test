@@ -1,0 +1,46 @@
+/* searchBar CSS */
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 200px;
+    max-width: 700px;
+  }
+  
+  .search{
+    text-indent: 60px;
+    height: 42px;
+  }
+  
+  
+  
+  .icon1{
+    position: absolute;
+    left: 18px;
+    border: none;
+    outline: none;
+    background: none;
+    height: fit-content;
+  }
+  .icon1 > img {
+    height: 32px;
+  }
+  
+  .icon2{
+    position: absolute;
+    left: 60px;
+    border: none;
+    outline: none;
+    background: none;
+    height: fit-content;
+  }
+  .icon3 {
+    position: absolute;
+    right: 18px;
+    border: none;
+    outline: none;
+    background: none;
+    height: fit-content;
+  }

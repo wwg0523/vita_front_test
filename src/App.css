@@ -40,3 +40,24 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content {
+  margin-left: 100px;
+  transition: margin-left 0.3s ease-in-out;
+  width: calc(100% - 100px);
+}

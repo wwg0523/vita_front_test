@@ -5,7 +5,7 @@
 
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import SearchBar from "../componenets/button/SearchBar";
+import SearchBar from "../componenets/input/SearchBar";
 import "./Home.css"
 
 
@@ -27,10 +27,13 @@ export default function Home () {
     {/* HOME */}
     <div className="main-container">
 
+      {/* 메인로고 */}
       <div className="flex-container">
-        <img src="/images/vita_logo_3d.png" className="MainLogo" alt="메인로고" />
-        <h1> Healthcare AI Chat-Bot </h1>
+          <img src="/images/vita_logo_3d.png" className="main-logo" alt="메인로고" />
+          <h1> Healthcare AI Chat-Bot </h1>
       </div>
+
+      {/* 검색창 컴포넌트 */}
       <SearchBar/>
       
     </div>

@@ -1,3 +1,4 @@
+/*! 이거 삭제 해도 되지 않나? */
 *{
   margin: 0;
   padding: 0;
@@ -5,37 +6,44 @@
   flex-shrink: 0;
 
 }
-
+.class-a
+.class-b
+[class*="class-"]
 
 /* << Home >> */
-.main-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: -100px;
-  height: 600px;
-  width: 100%;
-  
-}
-/* 메인로고 */
-.title-container{
+.home-box{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  padding: 210px 32px 360px 32px;
+  height: 600px;
+  min-width: 600px;
+  width: 100%;
+  
+}
+/*<< 메인로고 + 텍스트 >>*/
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+
 
   
 }
+/* 메인로고 */
 img.main-logo {
-  height: 220px;
-  /* 계산식 xvh = 250h /1080 x100 */
+  height: 250px;
 }
 .main-title {
   background: linear-gradient(to bottom, #6EC9F7,#3728FF);
   color: transparent;
   -webkit-background-clip: text;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 36px; 
+  text-align: center;
   letter-spacing: 0.05em;
 }

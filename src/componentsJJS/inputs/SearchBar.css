@@ -1,5 +1,5 @@
-/* searchBar CSS */
-.container {
+/* << SearchBar >> */
+.searchbar-box {
     position: relative;
     display: flex;
     align-items: center;
@@ -9,32 +9,33 @@
     max-width: 700px;
   }
   
-  .search{
-    text-indent: 60px;
-    height: 42px;
+  .search-input{
+    text-indent: 72px;
+    height: 60px; 
   }
+  .search-input::placeholder {
+    color: #BDBDBD;
+    font-size: 16px; /* 16px */
+  } 
   
-  
-  
-  .icon1{
+  .icon1{/* 마이크 아이콘 */
     position: absolute;
-    left: 18px;
+    left: 14px;
     border: none;
     outline: none;
     background: none;
     height: fit-content;
   }
   .icon1 > img {
-    height: 32px;
+    height: 40px; 
   }
-  
-  .icon2{
+ 
+  .icon2{ /* 돋보기 아이콘 */
     position: absolute;
     left: 60px;
     border: none;
     outline: none;
     background: none;
-    height: fit-content;
   }
   .icon3 {
     position: absolute;

@@ -1,22 +1,23 @@
 import React from "react";
 import ButtonEnter from "../componentsJJS/buttons/ButtonEnter";
 import Input from "../componentsJJS/inputs/Input";
-import InputHeader from "../componentsJJS/inputs/InputHeader";
-import "./MemberLogin.css"
+import SubTitle from "../componentsJJS/inputs/SubTitle";
 import { NavLink } from "react-router-dom";
+import "./Sign.css";
 
 const MemberLogin: React.FC=() => {
   const handleClick = () => {
     alert('버튼클릭!');
   };
   return <> 
-    <div className="frame-box">
+    <div className="sign-box">
+    sign-box--
 
-   <InputHeader title={"로그인"}/>
+   <SubTitle title={"로그인"}/>
     
     <div className="login-input-box">
-      <Input title="아이디" placeholder= "아이디를 입력해주세요."/>
-      <Input title="비밀번호" placeholder= "비밀번호를 입력해주세요."/>
+      <Input title="아이디" subtitle="최소 8자 이상, 대문자와 소문자, 숫자 및 특수 문자 포함" placeholder= "아이디를 입력해주세요."/>
+      <Input title="비밀번호" subtitle="" placeholder= "비밀번호를 입력해주세요."/>
       <ButtonEnter text="로그인" styleID="login-btn" onClick={handleClick}/>
     </div>
 

@@ -4,8 +4,8 @@ export default function SearchBar() {
 
 
   return <>
-    <form action="#" className="container">
-      <input type="text" className="search form-control rounded-pill" id="search" placeholder="search..." required/>
+    <form action="#" className="searchbar-box">
+      <input type="text" className="search-input form-control rounded-pill" id="search" placeholder="search..." required/>
       
       <div className="icon">
         <button className="icon1"><img src="\public\images\search_voice.png" alt="마이크"/></button>

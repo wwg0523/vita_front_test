@@ -1,7 +1,7 @@
 import React from "react";
 import ButtonEnter from "../componentsJJS/buttons/ButtonEnter";
 import Input from "../componentsJJS/inputs/Input";
-import InputHeader from "../componentsJJS/inputs/InputHeader";
+import InputHeader from "../componentsJJS/inputs/SubTitle";
 import "./MemberLogin.css"
 import { NavLink } from "react-router-dom";
 import StepProgress from "../componentsJJS/inputs/StepProgress";

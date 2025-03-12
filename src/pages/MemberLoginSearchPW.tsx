@@ -1,8 +1,8 @@
 import React from "react";
 import ButtonEnter from "../componentsJJS/buttons/ButtonEnter";
 import Input from "../componentsJJS/inputs/Input";
-import InputHeader from "../componentsJJS/inputs/InputHeader";
-import "./MemberLogin.css"
+import InputHeader from "../componentsJJS/inputs/SubTitle";
+import "./Sign.css"
 import { NavLink } from "react-router-dom";
 
 const MemberLoginSearchPW: React.FC=() => {

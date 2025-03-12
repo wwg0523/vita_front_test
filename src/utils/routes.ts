@@ -3,7 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 import PageLayout from "../componenets/layout/PageLayout.tsx";
 import Home from '../pages/Home.tsx';
-import MemberLogin from "../pages/MemberLogin.tsx";
+import SignIn from "../pages/SignIn.tsx";
 import MemberLoginSearchID from "../pages/MemberLoginSearchID.tsx";
 import MemberLoginSearchPW from "../pages/MemberLoginSearchPW.tsx";
 import MemberNew from "../pages/MemberNew01.tsx";
@@ -24,7 +24,7 @@ const routes = createBrowserRouter([
       },
       {
         path: "/login",
-        element: React.createElement(MemberLogin),
+        element: React.createElement(SignIn),
       },
       {
         path: "/loginSearchID",
